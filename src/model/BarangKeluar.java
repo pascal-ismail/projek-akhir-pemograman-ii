@@ -1,0 +1,72 @@
+package model;
+
+import java.time.LocalDate;
+
+/**
+ * Model (POJO) untuk tabel "barang_keluar".
+ *
+ * Field namaBarang bukan kolom asli tabel, melainkan hasil JOIN yang dipakai
+ * hanya untuk ditampilkan di JTable.
+ */
+public class BarangKeluar {
+
+    private int idKeluar;
+    private String noTransaksi;
+    private LocalDate tanggal;
+    private int idBarang;
+    private int jumlah;
+
+    // Field tambahan untuk tampilan (hasil JOIN)
+    private String namaBarang;
+
+    public BarangKeluar() {
+    }
+
+    public int getIdKeluar() {
+        return idKeluar;
+    }
+
+    public void setIdKeluar(int idKeluar) {
+        this.idKeluar = idKeluar;
+    }
+
+    public String getNoTransaksi() {
+        return noTransaksi;
+    }
+
+    public void setNoTransaksi(String noTransaksi) {
+        this.noTransaksi = noTransaksi;
+    }
+
+    public LocalDate getTanggal() {
+        return tanggal;
+    }
+
+    public void setTanggal(LocalDate tanggal) {
+        this.tanggal = tanggal;
+    }
+
+    public int getIdBarang() {
+        return idBarang;
+    }
+
+    public void setIdBarang(int idBarang) {
+        this.idBarang = idBarang;
+    }
+
+    public int getJumlah() {
+        return jumlah;
+    }
+
+    public void setJumlah(int jumlah) {
+        this.jumlah = jumlah;
+    }
+
+    public String getNamaBarang() {
+        return namaBarang;
+    }
+
+    public void setNamaBarang(String namaBarang) {
+        this.namaBarang = namaBarang;
+    }
+}

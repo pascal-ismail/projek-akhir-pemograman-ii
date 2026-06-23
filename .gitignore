@@ -1,0 +1,15 @@
+# Hasil kompilasi Java
+*.class
+out/
+build/
+bin/
+
+# macOS
+.DS_Store
+
+# Editor
+*.log
+
+# CATATAN:
+# - lib/*.jar SENGAJA TIDAK di-ignore (driver MySQL ikut di-push biar project langsung jalan).
+# - database/logistik.sql HARUS ikut di-push (ini skema database-nya).
