@@ -16,7 +16,7 @@ public class DatabaseConnection {
     // Ubah bagian ini sesuai konfigurasi MySQL Anda
     private static final String HOST = "localhost";
     private static final String PORT = "3306";
-    private static final String DB_NAME = "db_logistik";
+    private static final String DB_NAME = "db_gudang_logistik_231011400795";
     private static final String USER = "root";
     private static final String PASSWORD = ""; // isi jika MySQL Anda memakai password
 
